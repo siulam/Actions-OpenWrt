@@ -14,7 +14,7 @@ name: Update Checker
 
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
-  REPO_BRANCH: openwrt-25.12.1  # 推荐使用稳定分支，也可以写 master 使用开发版
+  REPO_BRANCH: openwrt-25.12  # 推荐使用稳定分支，也可以写 master 使用开发版
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
   DIY_P1_SH: diy-part1.sh
